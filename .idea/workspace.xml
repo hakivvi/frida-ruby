@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50fe6e14-6359-4e5b-ac58-681255b2ef1a" name="Changes" comment="i think i already commited?">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frida_ruby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frida_ruby.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/frida" beforeDir="false" afterPath="$PROJECT_DIR$/exe/frida" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Application.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Application.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Bus.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Bus.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Child.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Child.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Compiler.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Compiler.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Crash.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Crash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Device.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Device.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/DeviceManager.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/DeviceManager.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/EndpointParameters.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/EndpointParameters.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/FileMonitor.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/FileMonitor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/GObject.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/GObject.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/IOStream.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/IOStream.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/PortalMembership.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/PortalMembership.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/PortalService.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/PortalService.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Process.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Process.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Relay.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Relay.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Script.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Script.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Session.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Session.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/Spawn.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/Spawn.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/c_frida.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/c_frida.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/extconf.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/extconf.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/gutils.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/gutils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/gvl_bridge.c" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/gvl_bridge.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Application.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Bus.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Bus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Child.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Child.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Compiler.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Compiler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Crash.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Crash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Device.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Device.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/DeviceManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/DeviceManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/EndpointParameters.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/EndpointParameters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/FileMonitor.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/FileMonitor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/GObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/GObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/IOStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/IOStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/PortalMembership.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/PortalMembership.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/PortalService.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/PortalService.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Process.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Process.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Relay.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Relay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Script.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Script.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Session.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Session.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/Spawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/Spawn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/c_frida.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/c_frida.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/gutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/gutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext/c_frida/inc/gvl_bridge.h" beforeDir="false" afterPath="$PROJECT_DIR$/ext/c_frida/inc/gvl_bridge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frida.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/frida.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/frida.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/frida.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/frida/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/frida/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/crash.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/crash.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/portal_client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/portal_client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/portal_server.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/portal_server.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/snapshot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/snapshot.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_frida_ruby.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2blWYi5uUeQAaI2NZnVQdZ6WWSn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50fe6e14-6359-4e5b-ac58-681255b2ef1a" name="Changes" comment="" />
+      <created>1706790195275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706790195275</updated>
+      <workItem from="1706790196328" duration="30059000" />
+      <workItem from="1706875887582" duration="38738000" />
+      <workItem from="1706965640210" duration="25879000" />
+      <workItem from="1707049284332" duration="26415000" />
+      <workItem from="1707139315777" duration="26838000" />
+      <workItem from="1707220920221" duration="21376000" />
+      <workItem from="1707312700103" duration="1537000" />
+      <workItem from="1708628879231" duration="4898000" />
+      <workItem from="1708708298270" duration="35157000" />
+      <workItem from="1708787533490" duration="1536000" />
+      <workItem from="1708871441858" duration="35957000" />
+      <workItem from="1708974937047" duration="12385000" />
+      <workItem from="1710203279658" duration="5603000" />
+      <workItem from="1710632270048" duration="33837000" />
+      <workItem from="1710733190006" duration="3313000" />
+      <workItem from="1710912354034" duration="3336000" />
+      <workItem from="1711067099477" duration="4000" />
+      <workItem from="1711068079766" duration="17516000" />
+      <workItem from="1711143093670" duration="2288000" />
+      <workItem from="1711327266809" duration="17238000" />
+      <workItem from="1712233975405" duration="20874000" />
+      <workItem from="1712329739615" duration="38135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/frida_ruby@portal_client.rcov" NAME="portal_client Coverage Results" MODIFIED="1712523235646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="frida_ruby" />
+  </component>
+</project>
