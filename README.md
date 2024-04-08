@@ -4,6 +4,15 @@ Frida Ruby bindings.
 
 ## Installation
 
+First install frida-core from frida releases, for instance [frida-core-devkit-16.1.11-linux-x86_64](https://github.com/frida/frida/releases/download/16.1.11/frida-core-devkit-16.1.11-linux-x86_64.tar.xz):
+
+    $ wget https://github.com/frida/frida/releases/download/16.1.11/frida-core-devkit-16.1.11-linux-x86_64.tar.xz
+
+then extract the library and the header file and set `FRIDA_CORE_DEVKIT` env variable to the directory:
+
+    $ tar -xf frida-core-devkit-16.1.11-linux-x86_64.tar.xz
+    $ export FRIDA_CORE_DEVKIT=`pwd`
+
 Install the gem and add to the application's Gemfile by executing:
 
     $ bundle add frida
