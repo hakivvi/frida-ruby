@@ -44,6 +44,7 @@ static VALUE GC_rbcall(gclosure_callback *callback)
         args_array = rbGObjectSignalClosure_marshal_params(callback->param_values + 1, arity); // +1 skip sender instance.
     callback->param_values = (void *)args_array;
     rb_funcallv((VALUE)callback->closure->data, rb_intern("call"), arity, args_array);
+    return (Qnil);
 }
 
 static void gvl_bridge_call_GC(gclosure_callback *data)
