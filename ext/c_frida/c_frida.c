@@ -24,13 +24,13 @@ VALUE cPortalService;
 
 void	raise_argerror(char *err)
 {
-    rb_raise(rb_eArgError, err);
+    rb_raise(rb_eArgError, "%s", err);
 }
 
 void	raise_rerror(char *err, GError *gerr)
 {
     if (!gerr)
-        rb_raise(rb_eRuntimeError, err);
+        rb_raise(rb_eRuntimeError, "%s", err);
     else if (gerr->message) {
         VALUE ruby_string = rb_str_new_cstr(gerr->message);
         rb_funcall(ruby_string, rb_intern("force_encoding"), 1, rb_const_get(rb_cEncoding, rb_intern("UTF_8")));
