@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 require "mkmf"
 
 unless ENV["FRIDA_CORE_DEVKIT"] && File.directory?(ENV["FRIDA_CORE_DEVKIT"])
@@ -11,15 +10,17 @@ unless File.file?("#{ENV["FRIDA_CORE_DEVKIT"]}/frida-core.h") && File.file?("#{E
   abort "could not find frida-core.h or libfrida-core.a in the configured env variable FRIDA_CORE_DEVKIT"
 end
 
-W =
-  if false
-    # only on DEV mode because it detects lot of unused var/params, in our code and Ruby's.
-    "-Wno-error=cast-function-type -Wno-error=unused-parameter -Wno-error=unused-variable -Wno-error=unused-function -Wall -Werror -Wextra"
-  else
-    ""
-  end
-
-$CFLAGS = "#{W} -g3 -ffunction-sections -fdata-sections -I#{ENV["FRIDA_CORE_DEVKIT"]} -I#{File.dirname(__FILE__)}/inc"
-$LDFLAGS = "-Wl,--export-dynamic -static-libgcc -Wl,-z,noexecstack,--gc-sections -L#{ENV["FRIDA_CORE_DEVKIT"]} -lfrida-core -ldl -lrt -lm -lresolv -pthread"
+if RUBY_PLATFORM =~ /darwin/ && RUBY_PLATFORM =~ /x86_64/
+  target = "x86_64-apple-macos10.9"
+  $CFLAGS << " -I#{ENV["FRIDA_CORE_DEVKIT"]} -I#{File.dirname(__FILE__)}/inc"
+  $CFLAGS << " -target #{target} -w"
+  $libs << " -L. -L#{ENV["FRIDA_CORE_DEVKIT"]} -lfrida-core -lbsm -ldl -lm -lresolv"
+  $LDFLAGS << " -Wl,-framework,Foundation,-framework,AppKit,-dead_strip"
+elsif RUBY_PLATFORM =~ /linux/
+  $CFLAGS = "-g3 -ffunction-sections -fdata-sections -I#{ENV["FRIDA_CORE_DEVKIT"]} -I#{File.dirname(__FILE__)}/inc"
+  $LDFLAGS = "-Wl,--export-dynamic -static-libgcc -Wl,-z,noexecstack,--gc-sections -L#{ENV["FRIDA_CORE_DEVKIT"]} -lfrida-core -ldl -lrt -lm -lresolv -pthread"
+else
+  abort "Platform not supported."
+end
 
 create_makefile("c_frida")

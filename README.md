@@ -4,7 +4,7 @@ Frida Ruby bindings.
 
 ## Installation
 
-First install frida-core from frida releases, for instance [frida-core-devkit-16.1.11-linux-x86_64](https://github.com/frida/frida/releases/download/16.1.11/frida-core-devkit-16.1.11-linux-x86_64.tar.xz):
+First install frida-core from frida releases depending on your system, for instance [frida-core-devkit-16.1.11-linux-x86_64](https://github.com/frida/frida/releases/download/16.1.11/frida-core-devkit-16.1.11-linux-x86_64.tar.xz) or [frida-core-devkit-16.1.11-macos-x86_64.tar.xz](https://github.com/frida/frida/releases/download/16.1.11/frida-core-devkit-16.1.11-macos-x86_64.tar.xz):
 
     $ wget https://github.com/frida/frida/releases/download/16.1.11/frida-core-devkit-16.1.11-linux-x86_64.tar.xz
 
