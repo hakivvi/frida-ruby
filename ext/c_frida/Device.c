@@ -218,7 +218,7 @@ int array_all_type(VALUE arr, VALUE rtype)
 
 GVL_FREE_PROXY_FUNC(enumerate_processes_sync, enumerate_processes_proxy_args *args)
 {
-    GError *gerr;
+    GError *gerr = NULL;
     void	*procs;
 
     procs = frida_device_enumerate_processes_sync(args->device_handle, args->options, NULL, &gerr);
@@ -288,7 +288,7 @@ error:
 
 GVL_FREE_PROXY_FUNC(enumerate_applications_sync, enumerate_applications_proxy_args *args)
 {
-    GError *gerr;
+    GError *gerr = NULL;
     void	*apps;
 
     apps = frida_device_enumerate_applications_sync(args->device_handle, args->options, NULL, &gerr);
@@ -419,7 +419,7 @@ static int hash_all_type(VALUE hash, VALUE rtype)
 
 GVL_FREE_PROXY_FUNC(spawn_sync, spawn_sync_proxy_args *args)
 {
-    GError *gerr;
+    GError *gerr = NULL;
     char    *pid = NULL;
 
     pid += frida_device_spawn_sync(args->device_handle, args->program, args->options, NULL, &gerr);
